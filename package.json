@@ -1,0 +1,24 @@
+{
+  "name": "optimize-public-images",
+  "version": "1.0.0",
+  "description": "Development tool to optimize images in Next.js public folder subdirectories by creating _optimized copies in WebP format.",
+  "main": "index.js",
+  "bin": {
+    "optimize-public": "bin/optimize.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nextjs", "image-optimization", "public-folder"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.3.3",
+    "glob": "^13.0.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {}
+}
