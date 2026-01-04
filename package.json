@@ -1,6 +1,6 @@
 {
   "name": "optimize-public-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Development tool to optimize images in Next.js public folder subdirectories by creating _optimized copies in WebP format.",
   "main": "index.js",
   "bin": {
